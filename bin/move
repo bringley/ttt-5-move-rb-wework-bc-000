@@ -9,11 +9,12 @@ puts "Welcome to Tic Tac Toe!"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " ",]
 
 puts "Where would you like to go?"
-puts " #{board[0]} | #{board[1]} | #{board[2]} "
+# user should be able to see board before selecting position
+puts " 1 | 2 | 3 "
 puts "-----------"
-puts " #{board[3]} | #{board[4]} | #{board[5]} "
+puts " 4 | 5 | 6 "
 puts "-----------"
-puts " #{board[6]} | #{board[7]} | #{board[8]} "
+puts " 7 | 8 | 9 "
 
 input = gets.strip
 
